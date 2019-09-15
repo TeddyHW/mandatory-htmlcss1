@@ -1,27 +1,48 @@
 body {
-  background-color: red;
+  background-color: rgb(153, 255, 153);
 }
 
 header {
-  background-color: red;
-
+  background-color: rgb(153, 255, 153);
+  border: 20px solid rgb(153, 255, 153);
+}
+header .box:hover {
+  cursor: pointer;
+}
+header .menu {
+  display: flex;
+  direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
 }
 h1 {
   text-align: center;
-  color: white;
+  color: black;
 }
-article{
+article .H2{
+  font-size: 18px;
+  font-weight: bold;
+}
+article div{
+  display: flex;
+  direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
   background-color: white;
+
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 footer{
-  background-color: black;
+  background-color: rgb(140, 140, 140);
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
 
 }
-.FP {
+.fbox {
   color: white;
+  font-size: 13px;
   text-align: center;
 }
