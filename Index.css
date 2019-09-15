@@ -1,0 +1,27 @@
+body {
+  background-color: red;
+}
+
+header {
+  background-color: red;
+
+}
+h1 {
+  text-align: center;
+  color: white;
+}
+article{
+  background-color: white;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer{
+  background-color: black;
+
+}
+.FP {
+  color: white;
+  text-align: center;
+}
