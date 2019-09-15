@@ -19,10 +19,15 @@ h1 {
   text-align: center;
   color: black;
 }
+article {
+  text-align: center;
+}
 
 article table{
   border: 1px solid black;
   background-color: white;
+  margin-left: auto;
+  margin-right: auto;
 }
 td {
   border: 1px solid black;
